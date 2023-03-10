@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+ *{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html  body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ line-height: 1,7em;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+h1,h2,h3 {
+    padding-bottom:20px;
+}
+
+p{
+    margin:10px 0;
+}
+
+.container{
+    margin:auto;
+    max-width: 1100px;
+    overflow:auto;
+    padding:0 20px;
+}
+
+
+.lead{
+    font-size:20px;
+    font-weight: 200;
+}
+
+.btn{
+    display:inline-block;
+    font-size:18px;
+    color:#fff;
+    background:#333333;
+    padding:13px 20px;
+    border:none;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#f7c08a;
+    color:#333
+}
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .bg-light {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .bg-primary {
+    background: #f7c08a;
+    color: #333;
+  }
+  .clr{
+      clear:both;
+  }
+  .l-heading{
+      font-size:40px;
+  }
+ 
+  .py-1{padding:10px 0 ;}
+  .py-2{padding:20px 0 ;}
+  .py-3{padding:30px 0 ;}
+
+#navbar{
+    background:#333;
+    color:#fff;
+    overflow:auto;
+}
+
+#navbar a{
+    color:#fff
+}
+
+#navbar ul{
+    list-style:none;
+    float:right;
+}
+
+#navbar ul li {
+ float:left;
+}
+
+#navbar ul li a{
+    display:block;
+    padding:20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+ #navbar ul li a.current{
+    background:#444;
+    color:#f7c08a;
+}
+
+
+h1.enjoy{
+    font-family: 'Kaushan Script', cursive;}
+
+#showcase{
+    background-image: url('../img/the-best-sri-lanka-beaches-in-sri-lanka.jpg'); 
+    background position:center;
+    height: 592px;
+    
+}
+
+#showcase .showcase-content{
+    color:#fff;
+    text-align:center;
+    padding-top:150px;
+}
+
+#showcase .showcase-content h1{
+    font-size:75px;
+    line-height:1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom:20px;
+    line-height: 1.7em;
+}
+#home-info {
+    height: 340px;
+  }
+  
+  #home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/istockphoto-1288609237-170667a.jpg') no-repeat;
+    min-height: 100%;
+    
+  }
+  
+  #home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    
+  }
+  
+  #home-info .info-content  {
+    padding-bottom: 30px;
+    padding-right: 280px;
+  }
+
+  .cuisine{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+  }
+
+.box{
+    float:left;
+    widows: 33.5%;
+    padding:60px;
+    text-align:center;
+    color:#ede4e4;
+}
+
+.box i{
+    margin-bottom:10px;
+}
+
+footer{
+    background-color: #444;
+    
+  }
